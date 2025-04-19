@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
-  margin: 1;
-  padding: 1;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: '1', sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #fef9f8; /* light peach */
   color: #333;
   padding: 20px;
 }
@@ -15,7 +15,7 @@ body {
 header {
   text-align: center;
   padding: 2rem 0;
-  background-color: #222;
+  background-color: #ff6f61; /* coral red */
   color: #fff;
 }
 
@@ -23,14 +23,16 @@ nav a {
   margin: 0 10px;
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 main {
   max-width: 800px;
   margin: auto;
   padding: 20px;
-  background: #fff;
-  border-radius: 8px;
+  background: #ffffff; /* pure white for contrast */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -38,22 +40,24 @@ section {
 }
 
 h2 {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 3px solid #ffa07a; /* light salmon */
   margin-bottom: 10px;
   padding-bottom: 5px;
+  color: #ff6347; /* tomato red */
 }
 
 article {
-  background: #eee;
-  padding: 10px;
+  background: #fff0f5; /* lavender blush */
+  padding: 15px;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 8px;
+  border: 1px solid #f9c5d1; /* light pink border */
 }
 
 footer {
   text-align: center;
   margin-top: 40px;
-  padding: 10px;
-  background-color: #222;
+  padding: 15px;
+  background-color: #ff6f61;
   color: #fff;
 }
